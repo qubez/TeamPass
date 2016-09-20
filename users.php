@@ -182,7 +182,7 @@ echo '
        <label for="new_personal_folder">'.$LANG['personal_folder'].'</label>
     <div id="auto_create_folder_role"  style="visibility:hidden;">
     <input type="checkbox" id="new_folder_role_domain" disabled="disabled" />
-    <label for="new_folder_role_domain">'.$LANG['auto_create_folder_role'].'&nbsp;&quot;<span id="auto_create_folder_role_span"></span>&quot;</label>
+    <label for="new_folder_role_domain">'.$LANG['auto_create_folder_role'].'<strong><span id="auto_create_folder_role_span"></span></strong></label>
     <img id="ajax_loader_new_mail" style="display:none;" src="includes/images/ajax-loader.gif" alt="" />
     <input type="hidden" id="new_domain" />
     </div>
